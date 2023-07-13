@@ -30,12 +30,12 @@ First, to make sure you have all of the required Python dependencies, run:
 ```
 > pip install requirements.txt
 ```
-In order to run the tool you will need a GCP account and enable Cloud Translation API (see https://cloud.google.com/translate/docs/reference/libraries/v2/python for more detalis). Setting it is beyond the scope of this guide, as well as creating a JSON with Google's application credentials but there are plenty of adequete guides by Google for this topic (e.g. https://cloud.google.com/docs/authentication/application-default-credentials#GAC).
+In order to run the tool you will need a GCP account and enable [Cloud Translation API](https://cloud.google.com/translate/docs/reference/libraries/v2/python). Setting it is beyond the scope of this guide, as well as creating a JSON with Google's application credentials but there are plenty of adequete guides by Google](https://cloud.google.com/docs/authentication/application-default-credentials#GAC) for this topic .
 
 Once you've fulfilled both Python and GCP requirements all that is left is to change the variable `idn_squatting_target` to the brand you wish to protect then run the entire notebook. If this is your first time with Python Notebook we recommend either [this guide](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html) from Jupyter or [this one](https://code.visualstudio.com/docs/datascience/jupyter-notebooks) by VS Code's team.
 
 ## Creators
-- Adi Pick [Linkedin] (https://www.linkedin.com/in/adi-pick-52b97916a/)
-- Gal Bitensky [LinkedIn](https://www.linkedin.com/in/gal-bitensky/) [Twitter] (https://twitter.com/gal_b1t)
+- Adi Pick [Linkedin](https://www.linkedin.com/in/adi-pick-52b97916a/)
+- Gal Bitensky [LinkedIn](https://www.linkedin.com/in/gal-bitensky/) [Twitter](https://twitter.com/gal_b1t)
 
-This tool was first released as part of [BlackHat USA 2023 Arsenal] (https://www.blackhat.com/us-23/arsenal/schedule/#nekuda-idn-squatting-detector-33540)
+This tool was first released as part of [BlackHat USA 2023 Arsenal](https://www.blackhat.com/us-23/arsenal/schedule/#nekuda-idn-squatting-detector-33540)
