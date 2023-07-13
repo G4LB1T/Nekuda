@@ -1,0 +1,6 @@
+jupyter-lab>=4.0.2
+pandas>=2.0.2
+google-cloud-translate>=3.11.1
+urllib>=32.0
+dnspython>=2.3.0
+python-whois>=0.8.0
